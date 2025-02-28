@@ -1,0 +1,7 @@
+Running the tests
+python3 -m pip install --user openpyxl
+
+./checker.py --tm morse.xlsx --run-tests
+
+Morse.xlsx is a transition table for a Turing machine. The Turing machine decodes the morse code and checks if there is a key word in the text. If there is a key word the Turing machine accepts the input, otherwise it rejects it.
+Key words: HELP, SOS
